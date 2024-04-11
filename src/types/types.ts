@@ -1,8 +1,14 @@
-export interface FormNewSubscriber {
-    name: string
-    email: string
-    phone: string
-    categories: string[]
-    channels: string[]
+export interface FormatDate {
+    year: string 
+    month: string
+    day: string
+    hour: string
+    minute: string
+    second: string
+}
+
+export interface FormNotification {
+    category: string
+    message: string
 }
   

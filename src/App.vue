@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
-    <div class="wrapper w-full m-5 mb-0 bg-slate-200 rounded-lg">
+    <div class="wrapper w-100 sm:w-full m-5 mb-0 bg-slate-200 rounded-lg">
       <nav class="flex justify-center items-center">
         <RouterLink to="/" class="text-2xl">Home</RouterLink>
         <RouterLink to="/logs" class="text-2xl">Logs</RouterLink>
@@ -14,7 +14,7 @@ import { RouterLink, RouterView } from "vue-router";
     </div>
   </header>
 
-  <div class="m-5 mt-5 p-10 bg-gray-100 rounded-lg">
+  <div class="m-2 md:m-5 mt-5 p-3 md:p-8 bg-gray-100 rounded-lg">
     <RouterView />
   </div>
 </template>
